@@ -5,14 +5,11 @@
  * Return: Always 0 (Good)
  */
 int main(void)
-
 {
-char alphabet;
+int c;
 
-for (alphabet = 'a'; alphabet <= 'z', alphabet++)
-{
-putchar(alphabet);
-}
+for (c = 0; c < 26; ++c)
+putchar('a' + c);
 
 putchar('\n');
 
