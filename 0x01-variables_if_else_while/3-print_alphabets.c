@@ -1,18 +1,21 @@
-#include <stdio.h>
-
+#includen <stdio.h>
 /**
  * main - Entry point
  *
- * Return: Always (correct)
+ * Return: Always 0 (Success/correct)
+ */
 int main(void)
-{
-int c;
 
-for (c = 0; c < 26; ++c)
-putchar('a' + c);
-for (c = 0; c < 26, ++c)
-putchar('A' + c)}
+{
+char alphabet;
+
+for (alphabet = 'a' ; alphabet <= 'z' ; alphabet++)
+{
+putchar(alphabet);
+}
 
 putchar('\n');
-return 0;
+
+return (0);
+
 }
