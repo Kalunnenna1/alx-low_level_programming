@@ -2,24 +2,28 @@
 /**
  * main - Entry point
  *
- * Return: 0
+ * Return: Always O (Success/correct)
  */
 int main(void)
-{
-int c = 0;
 
-while (c < 10)
 {
-putchar(48 + c);
-if (c != 9)
+int number;
+
+for (number = 48; number <= 57; number++)
 {
+putchar(number);
+
+if (number == 57)
+{
+break;
+}
+
 putchar(',');
-putchar(' ');
-}
-c++;
-}
-putchar ('\n')
-return (0);
+putchar (' ');
 }
 
- 
+putchar('\n');
+
+return (0);
+
+}
