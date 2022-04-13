@@ -7,6 +7,7 @@
  */
 void times_table(void)
 {
+
 int a;
 int b;
 int c;
@@ -44,6 +45,8 @@ _putchar (' ');
 }
 }
 _putchar ('\n');
+
 }
+
 }
 
