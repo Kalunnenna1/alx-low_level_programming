@@ -5,8 +5,11 @@
  * 
  * Return: Always return as  0
  */
+
 int main(void)
+  
 {
+
 -putchar('_');
 -putchar('p');
 -putchar('u');
@@ -16,7 +19,10 @@ int main(void)
 -putchar('a');
 -putchar('r');
 -putchar('\n');
- return (0);
+
+return (0);
+ 
 }
+
 
 
