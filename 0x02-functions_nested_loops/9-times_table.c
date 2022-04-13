@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * times_tables -prints tables
  *
@@ -45,3 +46,4 @@ _putchar (' ');
 _putchar ('\n');
 }
 }
+
