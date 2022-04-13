@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - main block
- * Description: program that prints _putchar, followed by a new line.
- * Return: Alway return the program to zero 0
+ * main - Entry point
+ * 
+ * Return: Always return as  0
  */
 int main(void)
 {
@@ -17,3 +17,4 @@ int main(void)
 -putchar('\n');
 return (0);
 }
+
