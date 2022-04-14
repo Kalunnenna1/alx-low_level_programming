@@ -1,11 +1,12 @@
 #include"main.h"
-#include"stdio.h"\
+#include"stdio.h"
 
 /**
  * main - Entry point
- * Description: to sum up all the
- *              multiple number of 3 or 5
- *              that is below 1024 (excluded)
+ *
+ * Description: computes the sum of all
+ *              the multiples of 3 or 5
+ *              below 1024 (excluded)
  *
  * Return: Always 0 (Success)
  */
@@ -20,5 +21,6 @@ int main(void)
 			sum += num;
 	}
 	printf("%d\n", sum);
-	return (0);
+        return (0);
 }
+
