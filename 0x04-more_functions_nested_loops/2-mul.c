@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * Mul - with multiple integers of two 
- * @a: int we are to multiply by b
- * @b: int we are to multiply by a
+ * Mul - multiple two integers 
+ * 
+ * @a: first input
+ * @b: second input
+ *
  * Return: the given result
  */
 
