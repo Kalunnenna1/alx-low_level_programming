@@ -2,12 +2,12 @@
 /**
  * main - isupper - this functions is to check for uppercase character
  *@c: print int
- * Return: Always 0.
+ * Return: Always 1 or 0.
  */
 
 int -isupper(int c)
 {
-if (c >= 'A' && c <= 'N')
+if (c >= 'A' && c <= 'Z')
 {
 return (1);
 }
