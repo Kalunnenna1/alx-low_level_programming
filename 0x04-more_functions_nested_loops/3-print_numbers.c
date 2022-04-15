@@ -1,21 +1,20 @@
 #include"main.h"
 
 /**
- * prints numbers from - print 0 - 9 with a new line
- *                       using _putchar twice 
+ * print_numbers - print 0 - 9
+ *                 using _putchar twice
  *
  * Return: Return: Always 0 (Success)
  */
 
-void print_numbers(void);
+void print_numbers(void)
 {
-	int i;
+	int num = 0;
 
-	for (i = 0; i < 10; i++)
-	{
-		_putchar(i + '0');
-	}
-
+	do {
+		_putchar(num + 48);
+		num++;
+	} while (num >= 0 && num <= 9);
 	_putchar('\n');
 }
 
