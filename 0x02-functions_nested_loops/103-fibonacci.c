@@ -8,6 +8,7 @@
  *              Fibonacci sequence not exceed
  *              4million
  *
+ * Return: Always 0 (Correct)
  */
 
 int main(void)
