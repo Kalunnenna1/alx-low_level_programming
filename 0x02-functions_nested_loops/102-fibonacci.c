@@ -5,9 +5,9 @@
  * main - Entry point
  *
  * Description: prints the first 50 Fibonacci numbers
- *               starting with 1 and 2 folled by a new line
+ *              starting with 1 and 2 folled by a new line
  *
- * Return: Always 0 (Success)
+ * Retuen:  Always 0 (Correct)
  */
 
 int main(void)
@@ -23,10 +23,10 @@ int main(void)
 		fib1 = fib2;
 		fib2 = sum;
 
-		f (count == 49)
-		       printf("\n");
+		if (count == 49)
+			printf("\n");
 		else
-	   	       printf(", ");	
+			printf(", ");
 	}
 
 	return (0);
