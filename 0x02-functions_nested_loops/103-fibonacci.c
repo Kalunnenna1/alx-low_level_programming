@@ -4,11 +4,11 @@
 /**
  * main - Entry point
  *
- * Description: Prints the sum of an even-value
- *              Fibonacci sequence whose values do not exceed
+ * Description: Prints the sum of the even-valued
+ *              Fibonacci sequence not exceed
  *              4million
  * 
- * Return: Always 0 (Correct)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
