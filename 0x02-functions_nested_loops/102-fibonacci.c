@@ -5,9 +5,9 @@
  * main - Entry point
  *
  * Description: prints the first 50 Fibonacci numbers
- *              starting with 1 and 2 folled by a new line
+ *              starting with 1 and 2 followed by a new line
  *
- * Retuen:  Always 0 (Correct)
+ * Return:  Always 0 (Success)
  */
 
 int main(void)
