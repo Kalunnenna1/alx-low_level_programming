@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *_strcmp -compares two strings
- *@s1: A pointer to a destination input
- *@s2: A pointer to a source input
+ *_strcmp - combines two strings
+ *@s1: string 1 input to compare
+ *@s2: string above against the string 2
  *Return: dest
  */
 
@@ -14,7 +14,7 @@ char *str_one = s1;
 char *str_two = s2;
 
 
-while (*str_one != '\0' && *str_two == *str_two)
+while (*str_one != '\0' && *str_two != '\0' && *str_one == *str_two)
 {
 str_one++;
 str_two++;
