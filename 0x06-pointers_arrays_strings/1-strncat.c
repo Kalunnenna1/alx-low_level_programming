@@ -19,7 +19,7 @@ a++;
 }
 
 b = 0;
-while (dest[b] != '\0')
+while (b < n && src[b] != '\0')
 {
 dest[a] = src[b];
 b++;
