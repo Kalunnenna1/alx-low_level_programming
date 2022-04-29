@@ -1,7 +1,5 @@
 #include "main.h"
 
-#include "main.h"
-
 /**
  * sqrt_m - main - check the code
  * @m: number
