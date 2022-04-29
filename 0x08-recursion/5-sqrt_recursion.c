@@ -1,23 +1,23 @@
 #include "main.h"
 
 /**
- * sqrt_m - main - check the code
- * @m: number
- * @n: number of power
+ * sqrt_a - main - check the code
+ * @a: number
+ * @b: number of power
  * Return: Always 0.
  */
 
-int sqrt_m(int m, int n)
+int sqrt_a(int a, int b)
 {
-	if (n * n == m)
+	if (b * b == a)
 	{
-		return (m);
+		return (b);
 	}
-	else if (n * n > m)
+	else if (b * b > a)
 	{
 		return (-1);
 	}
-	return (sqrt_m(m, n + 1));
+	return (sqrt_a(a, b + 1));
 }
 
 /**
@@ -28,5 +28,5 @@ int sqrt_m(int m, int n)
  */
 int _sqrt_recursion(int n)
 {
-	return (sqrt_m(n, 0));
+	return (sqrt_a(n, 0));
 }
