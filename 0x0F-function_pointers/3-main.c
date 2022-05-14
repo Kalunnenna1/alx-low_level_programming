@@ -10,8 +10,8 @@
 int main(int argc, char *argv[])
 {
 	int arg1, arg2, result;
-	char 0;
-	int (*fun)(int, int);
+	char o;
+	int (*func)(int, int);
 
 	if (argc != 4)
 	{
@@ -26,22 +26,23 @@ int main(int argc, char *argv[])
 
 	if (!func)
 	{
-		printf("Error\n);
+		printf("Error\n");
 		exit(99);
 	}
 
-	o = *agrv[2];
+	o = *argv[2];
 
-	if ((0 == '/' 0 == '%') && arg2 == 0)
+	if ((o == '/' || o == '%') && arg2 == 0)
 	{
 		printf("Error\n");
 		exit(100);
-
-		return = func(arg1, arg2);
-
-		printf("%d\n", result);
-
-		return (0);
 	}
+
+	result = func(arg1, arg2);
+
+	printf("%d\n", result);
+
+	return (0);
+}
 
 
