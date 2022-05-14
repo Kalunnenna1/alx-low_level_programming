@@ -1,26 +1,26 @@
 #include "3-calc.h"
 
 /**
- * get_op - function that returns a pointer to the function that corresponds
+ * get_op_func - function that returns a pointer to the function that corresponds
  * to the operator given as a parameter.
  *@s: point of a char
  *
- * Return: return pointer to the function that corresponds to the operator
+ * Return: pointer to the function that corresponds to the operator
  * given as a parameter
  */
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
-        {"+", op_add},
-        {"-", op_sub},
-        {"*", op_mul},
-        {"/", op_div},
-        {"%", op_mod},
-        {NULL, NULL}
-    };
-    int i;
+		{"+", op_add},
+		{"-", op_sub},
+		{"*", op_mul},
+		{"/", op_div},
+		{"%", op_mod},
+		{NULL, NULL}
+	};
+	int i;
 
-    i = 0;
+	i = 0;
 
 	while (ops[i].op)
 	{
@@ -31,3 +31,4 @@ int (*get_op_func(char *s))(int, int)
 
 	return (NULL);
 }
+
