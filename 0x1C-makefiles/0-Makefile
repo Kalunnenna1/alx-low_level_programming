@@ -1,2 +1,6 @@
-all:
+# Usage
+# make		# compile all files
+# make clean 	# remove All files and objects
+
+all: main.c school.c
 	gcc main.c school.c -o school
