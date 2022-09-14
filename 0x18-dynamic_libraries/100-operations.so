@@ -1,0 +1,24 @@
+#include <stdio.h>
+import random
+import ctypes
+
+int add(int a, int b)
+// Addition
+{
+return (a + b)
+
+int sub(int a, int b)
+// Subtraction
+{
+return (a - b)
+
+int mul(int a, int b)
+// Multiplication
+{
+return (a * b)
+
+int div(int a, int b)
+{
+//division
+return (a / b)
+
